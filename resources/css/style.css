@@ -22,6 +22,11 @@ header {
     justify-content: space-between;
     align-items: center;
     color: gray;
+    position: fixed;
+    top: 0;
+	left: 0;
+    width: 100%;
+    background-color: white;
 }
 
 #logo {
@@ -54,6 +59,10 @@ nav span:nth-child(-n+3) {
 }
 
 /*MAIN*/
+
+main {
+    margin-top: 64px;
+}
 
         /*BEGINING*/
 
@@ -193,8 +202,7 @@ nav span:nth-child(-n+3) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
-    
+    align-content: space-between; 
 }
 
 .subjects h1 {
@@ -216,8 +224,6 @@ nav span:nth-child(-n+3) {
 .box-inner {
     padding: 16px;
 }
-
-
 
 .box p {
     line-height: 1.5;
@@ -290,7 +296,6 @@ footer {
     justify-content: space-between;
     padding: 16px 24px;
     font-size: 12px;
-
 }
 
 footer a {
@@ -307,6 +312,10 @@ footer a {
     
     /*HEADER*/
 
+    header {
+        position: static;
+    }
+
     header nav, header p {
         display: none;
     }
@@ -322,6 +331,10 @@ footer a {
     }
 
     /*MAIN*/
+
+    main {
+        margin-top: 0;
+    }
 
            /* BEGINING*/
 
